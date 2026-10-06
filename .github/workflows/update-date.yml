@@ -1,0 +1,49 @@
+name: Auto Update README Date
+
+on:
+  schedule:
+    # 每天北京时间早上 8:00 运行 (UTC 时间 0:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许在 GitHub 后台手动触发
+
+jobs:
+  update-date:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 赋予写权限以提交更改
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run date update script
+        run: |
+          python -c "
+          from datetime import datetime, timezone, timedelta
+          import re
+          
+          # 获取北京时间 (UTC+8)
+          tz = timezone(timedelta(hours=8))
+          today = datetime.now(tz)
+          date_str = today.strftime('%Y年%m月%d日')
+          
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+              
+          # 替换更新日期
+          new_content = re.sub(r'更新日期：\s*\d{4}年\d{1,2}月\d{1,2}日', f'更新日期： {date_str}', content)
+          
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(new_content)
+          "
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 自动更新 README 日期为当天时间 [skip ci]"
+          branch: main
+          file_pattern: README.md
