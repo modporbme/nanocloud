@@ -1,6 +1,6 @@
-# NanoCloud (奈云) 机场全方位深度测评与最新官网导航 (nanocloud.cc)
+# NanoCloud (纳米云) 机场全方位深度测评与最新官网导航 (nanocloud.cc)
 
-> **核心摘要**：本文为 **NanoCloud**（又称奈云机场）的全网最全综合评测报告。针对近期网络上关于 **NanoCloud官网地址 (nanocloud.cc)**、节点速度、晚高峰表现、流媒体及 ChatGPT 解锁能力、性价比套餐（含1元试用/低价月付）进行深度拆解，帮助新老用户快速了解并高效使用这款高速稳定加速服务。
+> **核心摘要**：本文为 **NanoCloud**（又称纳米云机场）的全网最全综合评测报告。针对近期网络上关于 **NanoCloud官网地址 (nanocloud.cc)**、节点速度、晚高峰表现、流媒体及 ChatGPT 解锁能力、性价比套餐（含1元试用/低价月付）进行深度拆解，帮助新老用户快速了解并高效使用这款高速稳定加速服务。
 
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 1. NanoCloud (奈云) 机场概述
+## 1. NanoCloud (纳米云) 机场概述
 
 **NanoCloud**（官方直达：[nanocloud.cc](https://nanocloud.cc)）是近年来备受用户关注的高性价比网络加速与机场服务提供商。其核心定位是凭借多条优质 **IPLC 专线** 骨干网络与全球 150+ 个优质节点，为广大跨境办公、外贸人员、海外流媒体爱好者以及人工智能（如 ChatGPT、Claude）开发者提供低延迟、高稳定性的网络连接方案。
 
@@ -48,6 +48,30 @@
 
 > **实测小结**：通过访问 [NanoCloud 官网 (nanocloud.cc)](https://nanocloud.cc) 获取最新订阅后，即使在晚高峰 20:00 - 23:00 的网络拥堵期，香港 IPLC 专线依然能够轻松跑满带宽，YouTube 4K/8K 视频秒开无缓冲。
 
+### 多线程测速
+
+#### NanoCloud多线程测速与解锁（北京移动）
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-2.png)
+
+
+#### NanoCloud多线程测速与解锁（北京IDC）
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-3.png)
+
+
+#### NanoCloud多线程测速与解锁（洛杉矶）
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-4.png)
+
+
+
+### 单线程测速
+
+
+#### NanoCloud单线程测速（北京移动）
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-5.png)
+
+### NanoCloud线路分析
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-8.png)
+
 ---
 
 ## 4. 流媒体解锁与 AI / ChatGPT 支持能力
@@ -61,6 +85,11 @@
 * **AI 生产力工具解锁**：
   * **ChatGPT / Claude / Copilot**：主力节点对 OpenAI 等大模型的访问支持表现优异，IP 纯净度高，极少出现 `Access Denied` 或频繁要求输入验证码的情况，非常适合跨境电商和程序员群体。
 
+### NanoCloudAI解锁情况
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-6.png)
+
+### NanoCloud流媒体解锁情况
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-7.png)
 ---
 
 ## 5. 客户端全平台兼容性支持
@@ -79,7 +108,7 @@ NanoCloud 在同类专线机场中属于定价极具竞争力的一档：
 * **入门与试用套餐**：提供低门槛的体验通道，方便用户先测试本地三大运营商网络，再决定是否长期订阅。
 * **主力大流量套餐**：折合单价极低，满足日常高强度办公、下载及娱乐需求。
 * **官方直达入口**：请务必认准官方唯一指定域名 [nanocloud.cc](https://nanocloud.cc)，谨防钓鱼假冒网站。
-
+![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-1.png)
 ---
 
 ## 7. 综合优缺点总结 (Pros & Cons)
