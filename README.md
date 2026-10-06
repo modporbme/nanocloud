@@ -50,15 +50,15 @@
 
 ### 多线程测速
 
-#### NanoCloud多线程测速与解锁（北京移动）
+#### NanoCloud多线程测速（北京移动）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-2.png)
 
 
-#### NanoCloud多线程测速与解锁（北京IDC）
+#### NanoCloud多线程测速（北京IDC）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-3.png)
 
 
-#### NanoCloud多线程测速与解锁（洛杉矶）
+#### NanoCloud多线程测速（洛杉矶）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-4.png)
 
 
