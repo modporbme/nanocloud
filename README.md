@@ -26,13 +26,13 @@
 在技术层面，NanoCloud 提供了极为完善的协议矩阵，能够适应各种复杂的网络封锁环境：
 
 ### 2.1 支持协议解析
-* **Shadowsocks (SS)**：经典高并发协议，兼容性极广，适合各类老旧设备与路由器。
-* **VMess / Trojan**：伪装成标准 HTTPS 流量，抗封锁、抗识别能力极强。
-* **Hysteria 2 (Hy2) / TUIC**：基于 QUIC 的新一代高性能传输协议。在本地宽带遭遇晚高峰严重丢包、运营商 QoS 限速的极端情况下，开启 Hy2 能够强行拉满带宽，表现惊艳。
+- **Shadowsocks (SS)**：经典高并发协议，兼容性极广，适合各类老旧设备与路由器。
+- **VMess / Trojan**：伪装成标准 HTTPS 流量，抗封锁、抗识别能力极强。
+- **Hysteria 2 (Hy2) / TUIC**：基于 QUIC 的新一代高性能传输协议。在本地宽带遭遇晚高峰严重丢包、运营商 QoS 限速的极端情况下，开启 Hy2 能够强行拉满带宽，表现惊艳。
 
 ### 2.2 专线与家宽 IP 节点
-* **IPLC 专线互联**：主力香港（HK）、新加坡（SG）、日本（JP）节点采用内网专线传输，完美避开国际公网拥堵，晚高峰依旧流畅。
-* **原生/家宽 IP 资源**：配备了部分稀缺的海外家庭宽带 IP 资源，极大地提升了流媒体解锁成功率及账号风控安全性，防止被平台误杀。
+- **IPLC 专线互联**：主力香港（HK）、新加坡（SG）、日本（JP）节点采用内网专线传输，完美避开国际公网拥堵，晚高峰依旧流畅。
+- **原生/家宽 IP 资源**：配备了部分稀缺的海外家庭宽带 IP 资源，极大地提升了流媒体解锁成功率及账号风控安全性，防止被平台误杀。
 
 ---
 
@@ -55,18 +55,13 @@
 #### NanoCloud多线程测速（北京移动）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-2.png)
 
-
 #### NanoCloud多线程测速（北京IDC）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-3.png)
-
 
 #### NanoCloud多线程测速（洛杉矶）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-4.png)
 
-
-
 ### 单线程测速
-
 
 #### NanoCloud单线程测速（北京移动）
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-5.png)
@@ -80,37 +75,40 @@
 
 对于重度影音娱乐用户与 AI 生产力群体，NanoCloud 的解锁表现同样可圈可点：
 
-* **主流流媒体解锁**：
+- **主流流媒体解锁**：
   * **Netflix (奈飞)**：全节点完美解锁，非自制剧、独占剧无压力流畅观看。
   * **Disney+ / HBO Max / Prime Video**：主流港、台、新、日、美节点秒开，支持 4K 超高清画质。
   * **YouTube 4K/8K**：全网段稳定支持，无流媒体识别红名困扰。
-* **AI 生产力工具解锁**：
+- **AI 生产力工具解锁**：
   * **ChatGPT / Claude / Copilot**：主力节点对 OpenAI 等大模型的访问支持表现优异，IP 纯净度高，极少出现 `Access Denied` 或频繁要求输入验证码的情况，非常适合跨境电商和程序员群体。
 
-### NanoCloudAI解锁情况
+### NanoCloud AI解锁情况
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-6.png)
 
-### NanoCloud流媒体解锁情况
+### NanoCloud 流媒体解锁情况
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-7.png)
+
 ---
 
 ## 5. 客户端全平台兼容性支持
 
 NanoCloud 针对各主流操作系统提供了完善的客户端支持生态，新手也能快速上手：
 
-* **Windows / macOS**：推荐配合 **Clash Verge Rev** 或 **Clash Nyanpasu** 使用，一键导入订阅，智能分流。
-* **iOS (苹果设备)**：推荐使用 **Shadowrocket (小火箭)**、**Stash** 或 **Surge**。
-* **Android (安卓)**：推荐使用 **Clash Meta (Mihomo)** 或 **NekoBox**（对 Hysteria 2 协议支持完美）。
+- **Windows / macOS**：推荐配合 **Clash Verge Rev** 或 **Clash Nyanpasu** 使用，一键导入订阅，智能分流。
+- **iOS (苹果设备)**：推荐使用 **Shadowrocket (小火箭)**、**Stash** 或 **Surge**。
+- **Android (安卓)**：推荐使用 **Clash Meta (Mihomo)** 或 **NekoBox**（对 Hysteria 2 协议支持完美）。
 
 ---
 
 ## 6. 套餐价格、性价比与购买建议
 
 NanoCloud 在同类专线机场中属于定价极具竞争力的一档：
-* **入门与试用套餐**：提供低门槛的体验通道，方便用户先测试本地三大运营商网络，再决定是否长期订阅。
-* **主力大流量套餐**：折合单价极低，满足日常高强度办公、下载及娱乐需求。
-* **官方直达入口**：请务必认准官方唯一指定域名 [nanocloud.cc](https://nanocloud.cc)，谨防钓鱼假冒网站。
+- **入门与试用套餐**：提供低门槛的体验通道，方便用户先测试本地三大运营商网络，再决定是否长期订阅。
+- **主力大流量套餐**：折合单价极低，满足日常高强度办公、下载及娱乐需求。
+- **官方直达入口**：请务必认准官方唯一指定域名 [nanocloud.cc](https://nanocloud.cc)，谨防钓鱼假冒网站。
+
 ![相关截图](https://raw.githubusercontent.com/modporbme/nanocloud/main/nanocloud/nc-1.png)
+
 ---
 
 ## 7. 综合优缺点总结 (Pros & Cons)
